@@ -1,0 +1,19 @@
+.editor {
+    font-weight: 400;
+    color: #1c1c28;
+    max-width: 100%;
+    outline: none;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid $light-1-color;	
+    border-radius: 0 0 4px 4px;
+    
+    &-content {
+        padding: 18px 11px 31px 13px;
+    }
+}
+
+.ProseMirror {
+    resize: both;
+}

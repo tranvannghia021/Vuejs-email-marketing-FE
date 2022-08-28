@@ -1,0 +1,113 @@
+.auth {
+    background-image: url('/src/assets/images/background_auth.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 42vw 100vh;
+    background-color: $light-2-color;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    &-size-left {
+        width: 58vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-size-right {
+        width: 42vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-header {
+        padding: 30px;
+        position: fixed;
+    }
+
+    &-body {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &-footer {
+        display: flex;
+        gap: 40px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        justify-content: center;
+        margin: auto 0 40px;
+    }
+
+    &-welcome {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        color: $light-4-color;
+        justify-content: center;
+        align-items: center;
+
+        & .auth-title {
+            font-weight: 600;
+            font-size: 3.2rem;
+            line-height: 39px;
+        }
+
+        & .auth-subtitle {
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 22px;
+            opacity: 0.9;
+        }
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+        max-width: 450px;
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+
+            & .auth-title {
+                font-weight: 700;
+                font-size: 4rem;
+                line-height: 48px;
+            }
+
+            & .auth-subtitle {
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 19px;
+                color: $dark-1-color;
+            }
+        }
+
+        &-body {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        &-footer {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: $dark-1-color;
+
+            &>span {
+                display: flex;
+                align-items: flex-end;
+                gap: 6px;
+            }
+        }
+    }
+}

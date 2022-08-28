@@ -1,0 +1,17 @@
+.text {
+    &-primary {
+        color: $primary-color;
+    }
+
+    &-danger {
+        color: $red-1-color;
+    }
+
+    &-dark-2 {
+        color: $dark-2-color;
+    }
+
+    &-center {
+        text-align: center;
+    }
+}

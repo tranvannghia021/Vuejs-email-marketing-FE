@@ -1,0 +1,25 @@
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes down {
+    to {
+        -webkit-transform: translateY(4px);
+        opacity: 0.6;
+    }
+}
+
+@-webkit-keyframes down {
+    to {
+        -webkit-transform: translateY(4px);
+        opacity: 0.6;
+    }
+}

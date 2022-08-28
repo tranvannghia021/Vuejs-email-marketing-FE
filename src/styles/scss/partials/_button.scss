@@ -1,0 +1,49 @@
+.btn {
+    padding: 9px 16px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 24px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    &-primary {
+        background-color: $sapphire-blue-color;
+        color: $light-4-color;
+        border: 1px solid $sapphire-blue-color;
+    }
+    &-secondary {
+        background-color: $light-4-color;
+        color: $dark-2-color;
+        border: 1px solid $light-1-color;
+    }
+
+    &-light-blue {
+        background-color: $light-3-color;
+        color: $primary-color;
+        border: 1px solid $light-0-color;
+    }
+
+    &-full-width {
+        width: 100%;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    &-no-border {
+        border: none;
+    }
+
+    &:hover {
+        opacity: 0.8;
+        transition: all .2s ease-in;
+    }
+
+    &-icon-right{
+        flex-direction: row-reverse;
+    }
+}

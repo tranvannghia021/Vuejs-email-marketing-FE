@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+    align-items: center;
+    &-column {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &-gap-20 {
+        gap: 20px;
+    }
+
+    &-gap-4 {
+        gap: 4px;
+    }
+
+    &-gap-7 {
+        gap: 7px;
+    }
+
+    &-gap-10 {
+        gap: 10px;
+    }
+
+    &-gap-16 {
+        gap: 16px;
+    }
+
+    &-1 {
+        flex: 1;
+    }
+
+    &-row-end {
+        justify-content: flex-end;
+    }
+}

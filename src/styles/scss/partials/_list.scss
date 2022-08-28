@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+
+    &-editor {
+        list-style: none;
+    }
+    &-item {
+        padding: 14px 16px;
+		cursor: pointer;
+        
+		&:hover {
+			opacity: 0.8;
+		}
+
+        &-editor {
+            margin-left: 15px;
+        }
+
+        &-editor2 {
+            display: inline;
+        }
+    }
+}

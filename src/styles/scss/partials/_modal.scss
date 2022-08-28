@@ -1,0 +1,19 @@
+.modal {
+    &-title-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 22px;
+    }
+
+    &-subtitle {
+        color: $dark-2-color;
+        font-size: 1.4rem;
+        line-height: 24px;
+    }
+}
